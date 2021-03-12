@@ -1,6 +1,7 @@
+package myOldCode;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.*;
@@ -14,7 +15,7 @@ public class SearchTask extends LogAndLogOut{
         wait.until(ExpectedConditions.elementToBeClickable(By.id("keywords")));
         driver.findElement(By.id("keywords")).sendKeys("Ruby");
         driver.findElement(By.cssSelector("input[class='btn btn-success']")).click();
-        WebElement searchPanel = driver.findElement(By.cssSelector("#products"));
+        WebElement searchPanel = driver.findElement(By.id("products"));
         List<WebElement> lst = searchPanel.findElements(By.xpath("//div[contains(@id,'product_')]"));
         for(int i = 0; i < lst.size(); i++) {
             Assert.assertTrue(lst.get(i).getText().contains("Ruby"));

@@ -1,10 +1,10 @@
+package myOldCode;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import org.testng.annotations.*;
-
-import java.util.List;
 
 public class ValidateOrderAmount extends LogAndLogOut{
     @Test
@@ -12,11 +12,6 @@ public class ValidateOrderAmount extends LogAndLogOut{
 
         driver.findElement(By.xpath("//h4[text()='Shop by Categories']")).isDisplayed();
         driver.findElement(By.xpath("//a[@href='/t/mugs']")).click();
-        /**WebElement searchPanel = driver.findElement(By.id("products"));
-        List<WebElement> lst = searchPanel.findElements(By.cssSelector("span[title = 'Ruby on Rails Mug']"));
-        for(int i = 0; i < lst.size(); i++) {
-            System.out.println(lst.get(i).getText());
-        }**/
         WebElement product = driver.findElement(By.cssSelector("span[title = 'Ruby on Rails Mug']"));
         System.out.println(product.getText());
         double priceWhenSelected,priceInCheckout;

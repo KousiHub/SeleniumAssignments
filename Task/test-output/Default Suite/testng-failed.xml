@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Task(failed)">
     <classes>
-      <class name="LogAndLogOut">
+      <class name="myOldCode.LogAndLogOut">
         <methods>
           <include name="tearDown"/>
           <include name="setURL"/>
           <include name="assertLogoutMsg"/>
           <include name="setDriverURL"/>
         </methods>
-      </class> <!-- LogAndLogOut -->
+      </class> <!-- myOldCode.LogAndLogOut -->
     </classes>
   </test> <!-- Task(failed) -->
 </suite> <!-- Failed suite [Default Suite] -->

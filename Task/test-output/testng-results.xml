@@ -6,32 +6,32 @@
     <groups>
     </groups>
     <test started-at="2021-03-08T15:22:05 IST" name="Task" finished-at="2021-03-08T15:22:13 IST" duration-ms="7105">
-      <class name="LogAndLogOut">
-        <test-method is-config="true" signature="setDriverURL()[pri:0, instance:LogAndLogOut@515aebb0]" started-at="2021-03-08T15:22:05 IST" name="setDriverURL" finished-at="2021-03-08T15:22:07 IST" duration-ms="1702" status="PASS">
+      <class name="myOldCode.LogAndLogOut">
+        <test-method is-config="true" signature="setDriverURL()[pri:0, instance:myOldCode.LogAndLogOut@515aebb0]" started-at="2021-03-08T15:22:05 IST" name="setDriverURL" finished-at="2021-03-08T15:22:07 IST" duration-ms="1702" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDriverURL -->
-        <test-method is-config="true" signature="setURL()[pri:0, instance:LogAndLogOut@515aebb0]" started-at="2021-03-08T15:22:07 IST" name="setURL" finished-at="2021-03-08T15:22:09 IST" duration-ms="1964" status="PASS">
+        <test-method is-config="true" signature="setURL()[pri:0, instance:myOldCode.LogAndLogOut@515aebb0]" started-at="2021-03-08T15:22:07 IST" name="setURL" finished-at="2021-03-08T15:22:09 IST" duration-ms="1964" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setURL -->
-        <test-method signature="assertLoginMsg()[pri:0, instance:LogAndLogOut@515aebb0]" started-at="2021-03-08T15:22:09 IST" name="assertLoginMsg" finished-at="2021-03-08T15:22:11 IST" duration-ms="1551" status="PASS">
+        <test-method signature="assertLoginMsg()[pri:0, instance:myOldCode.LogAndLogOut@515aebb0]" started-at="2021-03-08T15:22:09 IST" name="assertLoginMsg" finished-at="2021-03-08T15:22:11 IST" duration-ms="1551" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assertLoginMsg -->
-        <test-method is-config="true" signature="setURL()[pri:0, instance:LogAndLogOut@515aebb0]" started-at="2021-03-08T15:22:11 IST" name="setURL" finished-at="2021-03-08T15:22:11 IST" duration-ms="329" status="PASS">
+        <test-method is-config="true" signature="setURL()[pri:0, instance:myOldCode.LogAndLogOut@515aebb0]" started-at="2021-03-08T15:22:11 IST" name="setURL" finished-at="2021-03-08T15:22:11 IST" duration-ms="329" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setURL -->
-        <test-method signature="assertLogoutMsg()[pri:0, instance:LogAndLogOut@515aebb0]" started-at="2021-03-08T15:22:11 IST" name="assertLogoutMsg" finished-at="2021-03-08T15:22:12 IST" duration-ms="1431" status="PASS">
+        <test-method signature="assertLogoutMsg()[pri:0, instance:myOldCode.LogAndLogOut@515aebb0]" started-at="2021-03-08T15:22:11 IST" name="assertLogoutMsg" finished-at="2021-03-08T15:22:12 IST" duration-ms="1431" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assertLogoutMsg -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:LogAndLogOut@515aebb0]" started-at="2021-03-08T15:22:12 IST" name="tearDown" finished-at="2021-03-08T15:22:12 IST" duration-ms="96" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:myOldCode.LogAndLogOut@515aebb0]" started-at="2021-03-08T15:22:12 IST" name="tearDown" finished-at="2021-03-08T15:22:12 IST" duration-ms="96" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- LogAndLogOut -->
+      </class> <!-- myOldCode.LogAndLogOut -->
     </test> <!-- Task -->
   </suite> <!-- Default Suite -->
 </testng-results>
