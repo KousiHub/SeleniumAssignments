@@ -49,7 +49,7 @@ public class AllTests extends BasePage {
     public void validateMugsPriceAfterCheckout() throws InterruptedException {
         MugsOrder mugs = new MugsOrder(driver);
         CheckoutPage check = new CheckoutPage(driver);
-        mugs.priceOfSelectedMugOnCheckout();
+        mugs.selectedMugAndCheckout();
         ShoppingCartPage cartPage = new ShoppingCartPage(driver);
         double totalCart = cartPage.getTotalAmountAndCheckout();
         double totalCheckout = check.getOrderTotal();
@@ -63,7 +63,7 @@ public class AllTests extends BasePage {
         String actualMessage;
         MugsOrder mugs = new MugsOrder(driver);
         ShoppingCartPage cartPage = new ShoppingCartPage(driver);
-        mugs.priceOfSelectedMugOnCheckout();
+        mugs.selectedMugAndCheckout();
         cartPage.addQuantity(quantityRequired);
         actualMessage = cartPage.emptyCart();
         assertEquals(expectedMessage,actualMessage);

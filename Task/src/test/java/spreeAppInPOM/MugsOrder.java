@@ -25,7 +25,7 @@ public class MugsOrder extends BasePage {
         PageFactory.initElements(driver, this);
     }
 
-    public void priceOfSelectedMugOnCheckout() {
+    public void selectedMugAndCheckout() {
         mugsButton.click();
         mugRubyOnRailsTote.click();
         addToCartButton.click();

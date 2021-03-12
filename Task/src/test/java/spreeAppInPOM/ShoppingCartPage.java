@@ -17,7 +17,7 @@ public class ShoppingCartPage extends BasePage {
     private WebElement checkoutLink;
     @FindBy(xpath = "//div[@class='alert alert-info']")
     private WebElement emptyCartMessage;
-    @FindBy(css = "input#quantity")
+    @FindBy(xpath = "//input[@name='quantity']")
     private WebElement quantityRequired;
 
     Double priceOnShoppingCart;
