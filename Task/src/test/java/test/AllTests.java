@@ -1,10 +1,11 @@
-package spreeAppInPOM;
+package test;
 
 import myOldCode.HomePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+import spreeAppInPOM.*;
 
 import java.io.IOException;
 import static org.testng.Assert.assertEquals;
