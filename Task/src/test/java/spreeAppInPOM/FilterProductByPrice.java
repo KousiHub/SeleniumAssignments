@@ -32,7 +32,7 @@ public class FilterProductByPrice extends BasePage {
         List<WebElement> lst = productsPanel.findElements(By.cssSelector("span[class = 'price selling lead']"));
         double trimmedPrice;
         for(int i = 0; i < lst.size(); i++) {
-            System.out.println(lst.get(i).getText().replace('$',' '));
+            //System.out.println(lst.get(i).getText().replace('$',' '));
             trimmedPrice = Double.parseDouble(lst.get(i).getText().replace('$',' '));
             if(!(trimmedPrice >= min) && (trimmedPrice <= max))
                 return false;

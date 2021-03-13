@@ -22,7 +22,7 @@ public class BasePage {
     @BeforeMethod
     public void setURL()
     {
-        driver.manage().deleteAllCookies();
+        //driver.manage().deleteAllCookies();
         driver.get("http://spree-vapasi.herokuapp.com");
         wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector(".nav-link.text-white")));
     }
