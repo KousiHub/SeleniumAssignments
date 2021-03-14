@@ -21,9 +21,9 @@ public class TestCaseAddBook extends AllMethodsForLibraryAPI{
     }
 
     @Test(dataProvider = "bookDetails")
-    void addNewBookAndGetID() {
-        validateAddBookAndGetIDCreated(bookDetails());
-        //validateAddBookAndGetIDCreated(String bookName, String bookISBN, String bookAisle, String bookAuthor);
+    void addNewBookAndGetID(String bookName, String bookISBN, String bookAisle, String bookAuthor) {
+        String addedMessage = validateAddBookAndGetIDCreated(bookName, bookISBN, bookAisle, bookAuthor);
+        Assert.assertEquals(addedMessage,"[{\"book_name\":\"Control Systems\",\"isbn\":\"878787890\",\"aisle\":\"9790\",\"author\":\"Mr Hanks\"}]");
     }
 
 }

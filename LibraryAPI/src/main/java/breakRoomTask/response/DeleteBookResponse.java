@@ -6,7 +6,7 @@ public class DeleteBookResponse {
     @JsonProperty("ID")
     private String idToDelete;
 
-    @JsonProperty("Msg")
+    @JsonProperty("msg")
     private String deleteMessage;
 
 
