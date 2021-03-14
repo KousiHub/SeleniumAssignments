@@ -2,16 +2,20 @@ package test;
 
 import myOldCode.HomePage;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.testng.Assert;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import spreeAppInPOM.*;
 
 import java.io.IOException;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
-
-public class AllTests extends BasePage {
+@Listeners(ListenersForSpree.class)
+public class AllTest extends BasePage {
 
     @Test(priority = 0)
     public void validateLogInAndOut() throws InterruptedException, IOException {
@@ -23,11 +27,11 @@ public class AllTests extends BasePage {
         login.clickLogInButton();
         AccountsPage account = new AccountsPage(driver);
         System.out.println("Log In");
-        assertEquals(account.getLoginMessage(),"Logged in successfully");
+        Assert.assertEquals(account.getLoginMessage(),"Logged in successfully");
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@href='/logout']")));
         account.clickLogOutButton();
         System.out.println("Log Out");
-        assertEquals(account.getLogOutMessage(),"Signed out successfully.");
+        Assert.assertEquals(account.getLogOutMessage(),"Signed out successfully.");
     }
 
     @Test(priority = 9)

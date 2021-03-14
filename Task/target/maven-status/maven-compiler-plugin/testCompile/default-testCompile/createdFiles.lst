@@ -2,3 +2,4 @@ spreeAppInPOM/ExtentReport.class
 spreeAppInPOM/Screenshot.class
 test/BasePage.class
 test/ListenersForSpree.class
+test/AllTest.class
