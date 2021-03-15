@@ -1,13 +1,11 @@
-package breakRoomTask.test;
+package breakRoomTask.libraryfunctionalities;
 
 import breakRoomTask.response.AddBookResponse;
 import breakRoomTask.response.AddDuplicateBookResponse;
 import breakRoomTask.response.DeleteBookResponse;
-import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.testng.Assert;
-import org.testng.annotations.Test;
-import tryingLibApis.SerializeGetBookResponse;
+import breakRoomTask.response.SerializeGetBookResponse;
 
 import static io.restassured.RestAssured.given;
 

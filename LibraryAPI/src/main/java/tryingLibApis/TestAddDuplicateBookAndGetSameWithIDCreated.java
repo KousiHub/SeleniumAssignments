@@ -1,4 +1,4 @@
-package breakRoomTask.test;
+package tryingLibApis;
 
 import breakRoomTask.response.AddBookResponse;
 import breakRoomTask.response.AddDuplicateBookResponse;

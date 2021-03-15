@@ -1,9 +1,9 @@
 package breakRoomTask.test;
 
+import breakRoomTask.libraryfunctionalities.AllMethodsForLibraryAPI;
 import io.restassured.RestAssured;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 

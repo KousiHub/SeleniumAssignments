@@ -1,5 +1,7 @@
 package tryingLibApis;
 
+import breakRoomTask.response.SerializeAddBookResponse;
+import breakRoomTask.response.SerializeGetBookResponse;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.testng.Assert;

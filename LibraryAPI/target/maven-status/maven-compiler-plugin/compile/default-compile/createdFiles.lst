@@ -1,0 +1,8 @@
+tryingLibApis/TestCaseAddBook.class
+breakRoomTask/response/SerializeAddBookResponse.class
+tryingLibApis/TestAddNewBookAndGetSameWithIDCreated.class
+breakRoomTask/libraryfunctionalities/AllMethodsForLibraryAPI.class
+breakRoomTask/response/SerializeGetBookResponse.class
+tryingLibApis/TestCaseAddExistingBook.class
+tryingLibApis/TestAddGetDelete.class
+tryingLibApis/TestAddDuplicateBookAndGetSameWithIDCreated.class

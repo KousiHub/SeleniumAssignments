@@ -1,11 +1,11 @@
-package breakRoomTask.test;
+package tryingLibApis;
 
+import breakRoomTask.libraryfunctionalities.AllMethodsForLibraryAPI;
 import org.testng.Assert;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class TestCaseAddBook extends AllMethodsForLibraryAPI{
+public class TestCaseAddBook extends AllMethodsForLibraryAPI {
 
     @DataProvider
     public Object[][] bookDetails()

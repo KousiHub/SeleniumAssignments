@@ -1,0 +1,17 @@
+/Users/kousalyasarathy/IdeaProjects/LibraryAPI/src/main/java/breakRoomTask/response/SerializeGetBookResponse.java
+/Users/kousalyasarathy/IdeaProjects/LibraryAPI/src/main/java/breakRoomTask/test/TestAllFunctionalities.java
+/Users/kousalyasarathy/IdeaProjects/LibraryAPI/src/main/java/breakRoomTask/libraryfunctionalities/AllMethodsForLibraryAPI.java
+/Users/kousalyasarathy/IdeaProjects/LibraryAPI/src/main/java/breakRoomTask/response/AddDuplicateBookResponse.java
+/Users/kousalyasarathy/IdeaProjects/LibraryAPI/src/main/java/tryingLibApis/TestAddAndGetBooks.java
+/Users/kousalyasarathy/IdeaProjects/LibraryAPI/src/main/java/breakRoomTask/response/SerializeAddBookResponse.java
+/Users/kousalyasarathy/IdeaProjects/LibraryAPI/src/main/java/tryingLibApis/TestAddNewBookAndGetSameWithIDCreated.java
+/Users/kousalyasarathy/IdeaProjects/LibraryAPI/src/main/java/tryingLibApis/TestAddDuplicateBookAndGetSameWithIDCreated.java
+/Users/kousalyasarathy/IdeaProjects/LibraryAPI/src/main/java/tryingLibApis/TestAddGetDelete.java
+/Users/kousalyasarathy/IdeaProjects/LibraryAPI/src/main/java/breakRoomTask/request/DeleteBookRequest.java
+/Users/kousalyasarathy/IdeaProjects/LibraryAPI/src/main/java/tryingLibApis/AddBookRequest.java
+/Users/kousalyasarathy/IdeaProjects/LibraryAPI/src/main/java/tryingLibApis/TestCaseAddExistingBook.java
+/Users/kousalyasarathy/IdeaProjects/LibraryAPI/src/main/java/tryingLibApis/TestCaseAddBook.java
+/Users/kousalyasarathy/IdeaProjects/LibraryAPI/src/main/java/breakRoomTask/request/AddBookRequest.java
+/Users/kousalyasarathy/IdeaProjects/LibraryAPI/src/main/java/breakRoomTask/response/AddBookResponse.java
+/Users/kousalyasarathy/IdeaProjects/LibraryAPI/src/main/java/tryingLibApis/ReUse.java
+/Users/kousalyasarathy/IdeaProjects/LibraryAPI/src/main/java/breakRoomTask/response/DeleteBookResponse.java

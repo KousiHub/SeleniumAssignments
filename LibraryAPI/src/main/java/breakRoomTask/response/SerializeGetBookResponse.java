@@ -1,4 +1,4 @@
-package tryingLibApis;
+package breakRoomTask.response;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
