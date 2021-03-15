@@ -15,7 +15,7 @@ public class AllMethodsForLibraryAPI {
 
     public String validateAddBookAndGetIDCreated(String bookName, String bookISBN, String bookAisle, String bookAuthor) {
 
-        RestAssured.baseURI = "http://216.10.245.166";
+        //RestAssured.baseURI = "http://216.10.245.166";
         breakRoomTask.request.AddBookRequest book = new breakRoomTask.request.AddBookRequest();
         book.setName(bookName.toString());
         book.setIsbn(bookISBN.toString());
@@ -43,7 +43,7 @@ public class AllMethodsForLibraryAPI {
 
     public String validateAddDuplicateBookAndGetMessage(String bookName, String bookISBN, String bookAisle, String bookAuthor) {
 
-        RestAssured.baseURI = "http://216.10.245.166";
+        //RestAssured.baseURI = "http://216.10.245.166";
         breakRoomTask.request.AddBookRequest book = new breakRoomTask.request.AddBookRequest();
         book.setName(bookName.toString());
         book.setIsbn(bookISBN.toString());
@@ -60,7 +60,7 @@ public class AllMethodsForLibraryAPI {
     }
 
     public String validateGetBook(String idToGet) {
-        RestAssured.baseURI = "http://216.10.245.166";
+        //RestAssured.baseURI = "http://216.10.245.166";
         Response response = given().queryParam("ID", idToGet)
                 .header("Content-Type", "application/json")
                 .when()
@@ -73,7 +73,7 @@ public class AllMethodsForLibraryAPI {
     }
 
     public String validateDeleteBook(String idToDelete) {
-        RestAssured.baseURI = "http://216.10.245.166";
+        //RestAssured.baseURI = "http://216.10.245.166";
         breakRoomTask.request.DeleteBookRequest delBook = new breakRoomTask.request.DeleteBookRequest();
         delBook.setId(idToDelete);
         Response responseDel = given().header("Content-Type", "application/json")
@@ -87,7 +87,7 @@ public class AllMethodsForLibraryAPI {
     }
 
     public String validateAddManyBooksAndGetByAuthor(String bookName, String bookISBN, String bookAisle, String bookAuthor) {
-        RestAssured.baseURI = "http://216.10.245.166";
+        //RestAssured.baseURI = "http://216.10.245.166";
         breakRoomTask.request.AddBookRequest book = new breakRoomTask.request.AddBookRequest();
         book.setName(bookName.toString());
         book.setIsbn(bookISBN.toString());
@@ -123,7 +123,7 @@ public class AllMethodsForLibraryAPI {
 
     public String validateGetByAuthor(String authorName) {
 
-        RestAssured.baseURI = "http://216.10.245.166";
+        //RestAssured.baseURI = "http://216.10.245.166";
         Response getByAuthorResponse = given()
                 .queryParam("AuthorName",authorName)
                 .when()

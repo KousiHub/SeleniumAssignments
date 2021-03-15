@@ -1,11 +1,19 @@
 package breakRoomTask.test;
 
+import io.restassured.RestAssured;
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
 public class TestAllFunctionalities extends AllMethodsForLibraryAPI {
+
+    @BeforeMethod
+    public void setup() {
+        RestAssured.baseURI = "http://216.10.245.166/";
+    }
 
     @DataProvider
     public Object[][] bookDetails()
